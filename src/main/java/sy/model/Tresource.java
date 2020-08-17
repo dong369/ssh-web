@@ -19,8 +19,8 @@ import org.hibernate.annotations.DynamicUpdate;
 
 @Entity
 @Table(name = "tresource")
-@DynamicInsert(true)
-@DynamicUpdate(true)
+@DynamicInsert
+@DynamicUpdate
 public class Tresource implements java.io.Serializable {
 
 	private String id;

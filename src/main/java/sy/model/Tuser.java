@@ -20,8 +20,8 @@ import org.hibernate.annotations.DynamicUpdate;
 
 @Entity
 @Table(name = "tuser")
-@DynamicInsert(true)
-@DynamicUpdate(true)
+@DynamicInsert
+@DynamicUpdate
 public class Tuser implements java.io.Serializable {
 
     private String id;
